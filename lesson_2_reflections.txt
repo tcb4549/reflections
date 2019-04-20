@@ -1,7 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-It creates a new empty git repository in the dirctory where the command is run.
-This is done so git can track the changes to the files in that directory.
+	It creates a new empty git repository in the dirctory where the command is run.
+	This is done so git can track the changes to the files in that directory.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
@@ -9,13 +9,29 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can review the file(s) in the staging area prior to committing to confirm
+	that only one logical change it being committed.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches would be useful when working projects or trouble tickets since it
+	lets me switch to a separate code base that can be committed later.
+
 How do the diagrams help you visualize the branch structure?
+
+	They show that each commit has a parent and what the parent is of each commit
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The code changes from the branch are incorporated into the master. The
+	diagram shows that the two branches have been combined/merged into one.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	
+	Automatic merging is much more efficient.  Always going manual merges would
+	be very time consuming.  I can't think of a con if it merges changes but
+	forces you to fix conflicts manually so you can make sure the correct changes
+	get commited
